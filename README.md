@@ -2,7 +2,7 @@
 
  ## 🚀 Network Pattern Search
 
-A lightweight Python project for searching patterns in text files, with server–client support and automated tests.
+A Lightweight Python Project for Searching Patterns in Text Files, with Server–Client Support and Automated tests.
 
 
  ## 📂 Project Structure
@@ -14,9 +14,31 @@ network-pattern-search/
 ├── client.py        # Client to query the server
 ├── test_search.py   # Pytest tests
 ├── requirements.txt # Python dependencies
-├── .gitignore
-├── README.md
+├── sample.txt       # Any type of Text Files
+├── .gitignore       # Ignore venv, cache, logs, etc.
+├── README.md        # Documentation
+````
+## ⚙️ Setup
+````markdown
+python3 -m venv .venv
+source .venv/bin/activate     # Windows: .venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+````
+## ▶️ Usage
+
+#### Start the server:
+````markdown
+python3 server.py
 ````
 
+#### Query using the client:
+````markdown
+python3 client.py 
+````
+
+## 🧪 Run Tests
+````markdown
+pytest -q
+````
 
 
