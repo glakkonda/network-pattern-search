@@ -1,0 +1,23 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# VSCode
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Editor backups
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
